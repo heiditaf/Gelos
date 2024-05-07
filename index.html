@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gelos Enterprises</title>
+    <link rel="stylesheet" href="Geloscss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<header>
+ <!-- main header section including Banner,Logo,Search box and Navogation Menu-->
+  <div class="container">
+    <div class="banner">
+      <p class="banner-content"> Welcome to Gelos Enterprises</p>
+    </div>
+    <div class="logo">
+      
+      <div>
+      <img src="img/logo.png" alt="companylogo" aria-label="Company Logo" >
+      </div>
+      <div class="search-container">
+        <label for="searchInput"  class="visually-hidden">Search:</label>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="submit" aria-label="Search"><em class="fa fa-search"></em></button>
+       </div>
+    </div>
+    <nav  aria-label="main-navigation">
+      <div class="navbar" id="myTopnav" >
+            <a href="#Home" class="nav-link">Home</a>
+            <a href="#offering" class="nav-link">About</a>
+            <a href="#offering" class="nav-link" >Offering</a>
+            <a href="#values" class="nav-link">Values</a>
+            <a href="#footer" class="nav-link">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Hamburger Icon ">
+            <em class="fa fa-bars"></em></a>
+            <a href="javascript:void(0);" class="timesIcon" onclick="myFunction()" aria-label="Close Icon">
+              <em class="fa fa-times"></em></a>        
+        </div>
+    </nav>
+  </div>
+</header>
+<!-- slide 1 & 2 section-->    
+<div class="slideshow-container" id="Home" >
+
+  <div class="mySlides fade">   
+    <img src="img/slide3.jpg" alt="slide" style="width:100%">
+    <div class="text">
+      <p> Improving operation</p>
+      <p> through Gelos</p>
+      <p> product & services</p>
+   
+      <a href="casestudy.html" class="button">Read More</a>
+    </div>
+  </div>
+      
+  <div class="mySlides fade">   
+    <img src="img/slide4.jpg"  alt="slide" style="width:100%">
+    <div class="text">
+      <p> Solving business </p>
+      <p> problems</p>
+      <br>
+      <a href="casestudy.html" class="button">Know More</a>
+    </div>
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+   
+  <br>
+      
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span>  
+  </div>
+
+</div>
+<!--Accordion section --> 
+<h1>Company Offerings</h1>
+
+<div class="accordion-container">
+<button class="accordion" id="offering1"  aria-expanded="false" aria-controls="offering-panel1">
+  <em class="fa fa-cogs"></em>&nbsp;Digital Transform</button>
+<div class="panel" id="offering-panel1" aria-labelledby="offering1" >
+  <p>To help our clients leverage the state-of-art technologies, we provide a tailored approach to enable change in the digital space. Our prior works include developing mobile applications, website applications, and organisation software development, among other digital capabilities. To know more, contact us</p>
+</div>
+
+<button class="accordion" id="offering2"  aria-expanded="false" aria-controls="offering-panel2"> 
+  <em class="fa fa-cloud"></em> &nbsp;Cloud Services</button>
+<div class="panel" id="offering-panel2" aria-labelledby="offering2">
+  <p>Our Cloud programs include a range of services from full application development platforms to servers, storage, and virtual desktops. We offer the following:</p>
+  <ul>
+    <li>Software as a service (SaaS)</li>
+    <li>Platform as a service (PaaS)</li>
+    <li>Infrastructure as a service (IaaS)</li>
+  </ul>
+ 
+</div>
+
+<button class="accordion" id="offering3"  aria-expanded="false" aria-controls="offering-panel3"> 
+<em class="fa fa-android"></em> &nbsp;Artificial Intelligence</button>
+<div class="panel" id="offering-panel3" aria-labelledby="offering3">
+  <p>Artificial intelligence services at Gelos can help you drive smart evolution of your workflows, technology and the entire organisation. Our industry experts help you implement a data-first strategy, augment with third-party sources, and operationalise and accelerate AI integration across your enterprise to generate positive business growth.</p>
+</div>
+</div>
+
+<!-- Company values grids-->
+<h2 class="title">Company Values</h2>
+<section class="values" id="values">
+  <div class="container2">
+
+    <div class="column">
+      <div class="image2">
+        <img src="img/integrity.jpg" alt="integrity">
+      </div>
+
+      <div class="content">           
+        <h2><em class="fa fa-balance-scale"></em> Integrity</h2>
+        <p>We are committed to our values and protect our company at an organisational level. </p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="image2">
+        <img src="img/inclusivity.jpg" alt="inclusivity">
+      </div>
+
+      <div class="content">
+        <h2><em class="fa fa-users"></em> Inclusivity</h2>
+        <p>We strongly believe in diversity as the core of our growth. Our policies hold zero tolerance towards discrimination. </p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="image2">
+        <img src="img/innovation.jpg" alt="innovation">
+      </div>
+
+      <div class="content">
+        <h2> <em class="fa fa-lightbulb-o"></em>Innovation</h2>
+        <p>Innovation is one of our core values. Our culture imbibes curiosity, technological ingenuity and adaptability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact us section -->
+<section  class="contact" id="contact">
+  <div class="contactUs1">
+    <h2>Contact Us</h2>
+    <p>Improving operations through<p>
+    <p> Gelos products & services</p>
+    <a href="casestudy.html" class="button">Read More</a>
+    
+  </div> 
+  <div class="contactUs2">
+    <form onsubmit="return validateForm()">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+      
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+      <label for="mob">Mobile</label>
+      <input type="text" id="mob" name="mobile" placeholder="Your mobile number..">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+      <input type="submit" value="Send">
+    </form>
+  </div>
+
+</section>
+
+<!-- footer -->
+<footer class="footer" id="footer">
+  <p >Copyright &copy;2024 Gelos Enterprises All rights reserved</p> 
+</footer>
+
+
+<!-- javascripts codes-->
+<!-- responsive slides-->
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+
+ 
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const target = this.getAttribute('href').substring(1);
+
+    // Scroll to the top of the target section
+    document.getElementById(target).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start' // Scroll to the top of the element
+    });
+});
+});
+
+</script>
+<!-- responsive Nav -->
+<script>
+  
+  function myFunction() {
+   
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+     x.className = "navbar";
+    }
+  }
+  /* contact us form validation */
+  function validateForm() {
+      var fname = document.getElementById('fname').value;
+      var lname = document.getElementById('lname').value;
+      var mob = document.getElementById('mob').value;
+      var subject = document.getElementById('subject').value;
+
+      // Validate if any input item in contact us form  is empty
+      if (fname === '' || lname === '' || mob === '' || subject === '') {
+          alert('Please fill out all fields.');
+          return false;
+      }
+
+      // Validate Name field
+      var nameRegex = /^[A-Za-z .]{1,100}$/; // Allows only letters, space, and dot, up to 100 characters
+      if (!nameRegex.test(fname) || !nameRegex.test(lname)) {
+          alert('Name field allows only letters, space, and dots for upper and lower case letters.');
+          return false;
+      }
+
+      // Validate Phone Number field
+      var phoneRegex = /^[0-9]+$/; // Allows only numbers
+if (!phoneRegex.test(mob)) {
+  alert('Phone Number field allows only numbers.');
+  return false;
+}
+// Check if the input is not more than 10 characters
+else if (mob.length > 10) {
+  alert('Phone number cannot be more than 10 numbers.');
+  return false;
+}
+
+      // Validate Message field 
+      var maxMessageLength = 300;
+      if (subject.length > maxMessageLength) {
+          alert('Message field should not exceed ' + maxMessageLength + ' characters.');
+          return false;
+      }
+
+      alert('Your query has been submitted successfully!');
+      return true;
+  } 
+ 
+</script>
+<!-- Accordion javascripts code to make it animated-->
+<script>
+ var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active1");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            // Remove active class from all links
+            navLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+
+            // Add active class to the clicked link
+            this.classList.add('active');
+        });
+    });
+});
+</script>   
+</body>
+</html>    
